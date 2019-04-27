@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* CONTAINER */
 main{
     display: block;
@@ -13,13 +17,45 @@ main{
 main > header{
     display: block;
 
-    width: 100%;
+    width: 80%;
+
+    margin: 20px auto;
 }
 
 main > header > section{
     display: inline-block;
 
-    background-color: #8C43FF;
+    background-color: #fff;
+}
+
+main > header > section > figure{
+
+}
+
+main > header > section > figure > img{
+    display: inline-block;
+    
+    width: 72px;
+    height: 72px;
+}
+
+main > header > section > h1{
+    display: inline-block;
+    font-size: 1.3em;
+
+    transition: color 2s ease;
+}
+
+main > header > section > h1:hover{
+    transition: color 0.5s ease;
+    color: #8C43FF;
+}
+
+main > header > section > h2{
+    display: block;
+    font-size: 1.1em;
+
+    color: #ccc;
 }
 
 main > header > nav{
@@ -33,7 +69,7 @@ main > header > nav > ul > li > a{
     
 }
 
-main > header > nav > ul > li > a:active{
+main > header > nav > ul > li > a:hover{
     color: #8C43FF;
 }
 
