@@ -33,14 +33,14 @@ main > header > section > figure{
 }
 
 main > header > section > figure > img{
-    display: inline-block;
+    display: block;
     
     width: 72px;
     height: 72px;
 }
 
 main > header > section > h1{
-    display: inline-block;
+    display: block;
     font-size: 1.3em;
 
     transition: color 2s ease;
@@ -60,6 +60,17 @@ main > header > section > h2{
 
 main > header > nav{
     display: inline-block;
+    text-align: right;
+}
+
+main > header > nav > ul > li{
+    display: inline-block;
+
+    padding: 10px;
+
+    font-size: 1.1em;
+
+    
 }
 
 main > header > nav > ul > li > a{
