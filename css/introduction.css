@@ -1,12 +1,13 @@
 #introduction{
     display: block;
-    width: 80%;
+    width: 100%;
 
     margin: 100px auto;
 }
 
 #introduction > article.what-i-do{
-
+    width: 80%;
+    margin: auto;
 }
 
 #introduction > article.what-i-do > h1{
@@ -20,14 +21,46 @@
 
 #introduction > article.what-i-do > h2{
     font-size:  1.5em;
-    font-weight: 400;
-    color: #293347;
+    font-weight: 300;
+    color: #191f2b;
 
     text-align: center;
 
     padding: 20px 0px 0px 0px;
 }
 
+#introduction > article.who-am-i{
+    display: block;
+    width: 100%;
+    height: 480px;
+
+    margin: 50px auto 0px auto;
+
+    background-color: #8C43FF;
+}
+
+#introduction > article.who-am-i > h2, p{
+    width: 80%;
+    margin: auto;
+}
+
 #introduction > article.who-am-i > h2{
-    font-size:  1em;
+    font-size:  2em;
+    font-weight: 700;
+
+    color: #fff;
+    text-align: center;
+
+    padding: 120px 0 45px 0;
+}
+
+#introduction > article.who-am-i > p{
+    width: 48%;
+
+    font-size:  1.2em;
+    font-weight: 300;
+    line-height: 30px;
+
+    color: #fff;
+    text-align: center;
 }
