@@ -24,6 +24,8 @@ main > header{
 
 main > header > section{
     display: inline-block;
+    width: 400px;
+    height: 72px;
 
     background-color: #fff;
 }
@@ -33,30 +35,42 @@ main > header > section > figure{
 }
 
 main > header > section > figure > img{
-    display: block;
+    display: inline-block;
     
     width: 72px;
     height: 72px;
 }
 
-main > header > section > h1{
+main > header > section > figure > figcaption{
+    display: inline-block;
+    height: 72px;
+
+    position: relative;
+    top: -10px;
+}
+
+main > header > section > figure > figcaption > h1{
     display: block;
-    font-size: 1.3em;
+    font-size: 1.2em;
+
+    margin-bottom: 12px;
 
     transition: color 2s ease;
 }
 
-main > header > section > h1:hover{
+main > header > section > figure > figcaption  h1:hover{
     transition: color 0.5s ease;
     color: #8C43FF;
 }
 
-main > header > section > h2{
+main > header > section > figure > figcaption  h2{
     display: block;
-    font-size: 1.1em;
+    font-size: 1.0em;
 
     color: #ccc;
 }
+
+
 
 main > header > nav{
     display: inline-block;
