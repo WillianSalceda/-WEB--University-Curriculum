@@ -5,12 +5,12 @@
     position: relative;
     top: -10rem;
 
-    margin: 0px auto 100px auto;
+    margin: 0px auto 0px auto;
 }
 
 #skills > article.software, article.tools, article.web{
     display: inline-block;
-    width: 30%;
+    width: 33%;
     height: 450px;
 
     border: 1.33px solid #E6ECF6;
