@@ -1,0 +1,29 @@
+#skills{
+    display: block;
+    width: 80%;
+
+    position: relative;
+    top: -4rem;
+
+    margin: 0px auto 100px auto;
+}
+
+#skills > article.software, article.tools, article.web{
+    display: inline-block;
+    width: 30%;
+    height: 450px;
+
+    border: 1px solid #E6ECF6;
+    border-radius: 15px;
+
+    background-color: #fff;
+}
+
+#skills > article.tools{
+    margin: 0px 10px 0px 10px;
+    top: -4rem;
+}
+
+#skills > article.web{
+
+}
