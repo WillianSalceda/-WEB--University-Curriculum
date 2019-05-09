@@ -1,0 +1,11 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+    
+main{
+    display: block;
+    
+    width: 100%;
+    
+    background-color: #fff;
+}

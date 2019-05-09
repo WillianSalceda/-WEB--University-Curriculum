@@ -1,0 +1,126 @@
+/* HEADER SECTION */
+
+header.header-fixed{
+    position: fixed;
+ 
+    right: 0;
+    left: 0;
+
+    top: 0;
+     
+    z-index: 999;
+}
+
+main > header{
+    display: block;
+
+    width: 100%;
+    height: 80px;
+
+    margin: 0px auto 40px auto;
+
+    background-color: #fff;
+
+    box-shadow: 0px 0px 5px 1px #ccc;
+
+}
+
+main > header:hover{
+    display: block;
+
+    width: 100%;
+    height: 80px;
+
+    margin: 0px auto 40px auto;
+
+}
+
+main > header > section{
+    display: inline-block;
+    width: 400px;
+    height: 72px;
+
+    padding: 0px 10%;
+}
+
+main > header > section > figure{
+    height: 72px;
+}
+
+main > header > section > figure > img{
+    display: inline-block;
+    
+    width: 72px;
+    height: 72px;
+}
+
+main > header > section > figure > figcaption{
+    display: inline-block;
+    height: 72px;
+
+    position: relative;
+    top: -10px;
+}
+
+main > header > section > figure > figcaption > h1{
+    display: block;
+    font-size: 1.2em;
+
+    margin-bottom: 12px;
+
+    transition: color 1s ease;
+}
+
+main > header > section > figure > figcaption  h1:hover{
+    transition: color 0.5s ease;
+    color: #8C43FF;
+}
+
+main > header > section > figure > figcaption  h2{
+    display: block;
+    font-size: 1.0em;
+
+    color: #ccc;
+}
+
+
+
+main > header > nav{
+    display: inline-block;
+    height: 80px;
+
+    float: right;
+
+    padding: 0px 10%;
+
+    line-height: 60px; /* 60 devido ao padding abaixo (10 top + 10 bottom).*/
+}
+
+/* 
+  BREAKPOINT AT  850PX WIDE (WIDTH)
+  Abaixo de 850 o nav vai colapsar junto com a outra section;
+*/
+
+main > header > nav > ul > li{
+    display: inline-block;
+
+    padding: 10px 16px;
+
+    font-size: 1.1em;
+}
+
+main > header > nav > ul > li > a{
+    text-decoration: none;
+
+    color: #000;
+    
+    transition: color 1s ease;
+}
+
+main > header > nav > ul > li > a:hover{
+    color: #8C43FF;
+
+    transition: color 0.5s ease;
+}
+
+/* -------------- */
