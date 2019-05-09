@@ -6,6 +6,8 @@ footer{
     position: relative;
 
     background-color: #8C43FF;
+
+    box-shadow: 0px -5px 5px 1px #8C43FF;
 }
 
 #footer{
