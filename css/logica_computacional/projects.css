@@ -1,0 +1,73 @@
+#projects{
+    display: block;
+    width: 100%;
+    position: relative;
+
+    padding: 125px 0px 50px 0px;
+
+    text-align: center;
+}
+
+#projects > h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: #8C43FF;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+}
+
+#projects > article{
+    display: inline-block;
+    width: 90%;
+}
+
+#projects > article > h2{
+    padding: 20px;
+
+    font-size: 1.25em;
+    color: #8C43FF;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.1);
+}
+
+#projects > article > p{
+    text-align: center;
+}
+
+#projects > article > p > span{
+    font-size: 1.1em;
+    color: #8C43FF;
+}
+
+#projects > article > p:nth-of-type(4){
+    padding: 20px 0px 0px 0px;
+}
+
+#projects > article > p:last-of-type{
+    padding: 20px;
+}
+
+#projects > article > ul{
+    margin-top: 12px;
+
+    list-style: disc;
+    list-style-position: inside;
+}
+
+#projects > article > ul > li{
+    text-align: center;
+
+}
+#projects > article > ol{
+    margin-top: 12px;
+
+    list-style: upper-roman;
+    list-style-position: inside;
+}
+
+#projects > article > ol > li{
+    text-align: center;
+}
+
+footer{
+    position: relative;
+
+}
