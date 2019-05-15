@@ -122,3 +122,47 @@
 
     color: #8C43FF;
 }
+
+
+@media screen and (max-width: 1235px){
+    #recentWork > article:nth-of-type(3){
+        position: relative;
+        top: 20px;
+    }
+
+    #recentWork > article:nth-of-type(3) > figure > figcaption > a{
+        position: relative;
+        top: -20px;
+    }
+}
+
+@media screen and (max-width: 1180px){
+    #recentWork > article:nth-of-type(1){
+        position: relative;
+        top: 20px;
+    }
+
+    #recentWork > article:nth-of-type(1) > figure > figcaption > a{
+        position: relative;
+        top: -20px;
+    }
+}
+
+@media screen and (max-width: 1103px){
+    #recentWork > article:nth-of-type(4), article:nth-of-type(5){
+        position: relative;
+        top: -100px;
+    }
+
+    #recentWork > article:nth-of-type(6) > figure > figcaption > a{
+        position: relative;
+        top: -20px;
+    }
+}
+
+@media screen and (max-width: 981px){
+    #recentWork > article{
+        width: 30%
+    }
+
+}
