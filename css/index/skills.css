@@ -9,6 +9,8 @@
     margin: 0px auto 0px auto;
 }
 
+
+
 #skills > article.software, article.tools, article.web{
     display: inline-block;
     height: 95%;
@@ -238,4 +240,31 @@
 
 #skills > article.web > ul li{   
     line-height: 25px;
+}
+
+
+
+
+@media screen and (max-width:580px){
+    #skills{
+        top: -8rem;
+    }
+}
+
+@media screen and (max-width:554px){
+    #skills{
+        top: -8rem;
+    }
+}
+
+@media screen and (max-width:538px){
+    #skills{
+        top: -6rem;
+    }
+}
+
+@media screen and (max-width:489px){
+    #skills{
+        top: -3.4rem;
+    }
 }
