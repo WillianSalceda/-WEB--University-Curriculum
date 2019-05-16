@@ -64,3 +64,11 @@
     color: #fff;
     text-align: center;
 }
+
+
+@media screen and (max-width:960px){
+    #introduction > article.who-am-i > p{
+        width: 80%;
+        margin: auto;
+    }
+}
