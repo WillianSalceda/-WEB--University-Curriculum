@@ -30,7 +30,7 @@ main > header{
 }
 
 main > header > section{
-    width: 49%;
+    width: 50%;
     height: 72px;
 
     padding: 4px 10%;
@@ -76,6 +76,13 @@ main > header > section > figure > figcaption  h2{
     color: #ccc;
 }
 
+@media screen and (max-width:580px){
+    main > header{
+        justify-content: center;  
+    }
+}
+
+
 @media screen and (max-width:843px){
     main > header > section > figure{
         display: flex;
@@ -93,8 +100,9 @@ main > header > section > figure > figcaption  h2{
 
 
 
+
 main > header > nav{
-    width: 49%;
+    width: 50%;
     order: 2;
     align-self: center;
     height: 80px;

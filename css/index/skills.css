@@ -1,5 +1,6 @@
 #skills{
-    display: block;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
     width: 80%;
 
     position: relative;
@@ -10,8 +11,7 @@
 
 #skills > article.software, article.tools, article.web{
     display: inline-block;
-    width: 33%;
-    height: 450px;
+    height: 95%;
 
     border: 1.33px solid #E6ECF6;
     border-radius: 15px;
@@ -100,7 +100,6 @@
 
 #skills > article.tools{
     position: relative;
-    top: -5.1rem;
 
     padding-top: 3rem;
 
