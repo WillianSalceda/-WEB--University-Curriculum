@@ -43,25 +43,35 @@
 
 #recentWork > article{
     display: inline-block;
-    height: 260px;
+    height: 250px;
+    width: 30%;
 
     padding: 0px 1%;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
-#recentWork > article > figure{
+#recentWork > article:nth-of-type(4), article:nth-of-type(5), article:nth-of-type(6){
+    position: relative;
+    top: -6rem;
+}
+
+#recentWork > article > a{
+    text-decoration: none;
+}
+
+#recentWork > article > a > figure{
     height: 270px;
 
 
     transition: transform 0.5s ease;
 }
 
-#recentWork > article > figure:hover{
+#recentWork > article > a > figure:hover{
     transform: scale(1.1) rotate(2deg);  
     transition: transform .3s ease;
 }
 
-#recentWork > article > figure > img{
+#recentWork > article > a > figure > img{
     border-radius: 18px;
 
     width: 100%;
@@ -70,7 +80,7 @@
 
 }
 
-#recentWork > article > figure > figcaption{
+#recentWork > article > a > figure > figcaption{
     width: 90%;
     text-align: center;
     position: relative;
@@ -81,7 +91,7 @@
     margin: auto;
 }
 
-#recentWork > article > figure > figcaption > img{
+#recentWork > article > a > figure > figcaption > img{
     width: 154px;
     height: 114px;
 
@@ -92,7 +102,7 @@
 
 }
 
-#recentWork > article > figure > figcaption > h3{
+#recentWork > article > a > figure > figcaption > h3{
     display: inline;
     position: relative;
 
@@ -105,16 +115,5 @@
     text-shadow: 0.2em 0.2em 0.2em rgba(0,0,0,0.2);
 
     color: #fff;
-}
-
-#recentWork > article > figure > figcaption > a{
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    position: relative;
-
-    text-decoration: none;
-
-    color: #8C43FF;
 }
 
