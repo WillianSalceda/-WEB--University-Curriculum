@@ -65,6 +65,11 @@
     text-align: center;
 }
 
+@media screen and (min-width:500px) and (max-width:693px){
+    #introduction{
+        margin-top: 10rem;
+    }
+}
 
 @media screen and (max-width:960px){
     #introduction > article.who-am-i > p{
